@@ -21,7 +21,7 @@ function johnLennonFacts(array)
 
 function iLoveTheBeatles(n)
 {
-  var array={}
+  var array={"I love the Beatles!"}
 
   if(n<15)
   {
