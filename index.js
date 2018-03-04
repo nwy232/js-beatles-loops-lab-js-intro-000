@@ -23,11 +23,12 @@ function iLoveTheBeatles(n)
 {
   var array={}
 
-if(n<15)
-{
-  do {
+  if(n<15)
+  {
+    do {
     array.push("I love the Beatles!")
-  } while (array.length<n-1);
-}
+    n--;
+  } while (n>0);
+  }
   return array
 }
